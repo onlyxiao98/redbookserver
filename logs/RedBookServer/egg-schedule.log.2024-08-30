@@ -1,0 +1,9 @@
+2024-08-30 05:00:53,009 INFO 29785 [Job#172496525300524673489975883027] /Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2024-08-30 05:00:53,018 INFO 29785 [Job#172496525300524673489975883027] /Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 9ms. 
+2024-08-30 05:00:53,011 INFO 29783 [Timer] /Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 84546994ms at 2024-08-31 04:30:00.005
+2024-08-31 01:37:53,227 INFO 29785 [Job#17250394731832541571309823058] /Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2024-08-31 01:37:53,261 INFO 29785 [Job#17250394732502541571952250308] /Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2024-08-31 01:37:53,307 INFO 29785 [Job#17250394731832541571309823058] /Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 70ms. 
+2024-08-31 01:37:53,323 INFO 29785 [Job#17250394732502541571952250308] /Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 60ms. 
+2024-08-31 01:37:53,234 INFO 29783 [Timer] /Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 80526803ms at 2024-09-01 00:00:00.037
+2024-08-31 01:37:53,268 INFO 29783 [Timer] /Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 80527748ms at 2024-09-01 00:00:01.016

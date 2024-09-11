@@ -1,0 +1,163 @@
+2024-09-02 00:21:37,458 INFO 29783 [egg-logrotator] agent logger reload: got log-reload message
+2024-09-02 02:23:49,322 ERROR 29783 nodejs.ClusterClientNoResponseError: client no response in 7205548ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29783
+hostname: stempestdeMac-mini.local
+
+2024-09-02 04:24:53,609 ERROR 29783 nodejs.ClusterClientNoResponseError: client no response in 7204365ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29783
+hostname: stempestdeMac-mini.local
+
+2024-09-02 06:25:57,420 ERROR 29783 nodejs.ClusterClientNoResponseError: client no response in 7203814ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29783
+hostname: stempestdeMac-mini.local
+
+2024-09-02 08:27:00,917 ERROR 29783 nodejs.ClusterClientNoResponseError: client no response in 7203574ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29783
+hostname: stempestdeMac-mini.local
+
+2024-09-02 09:01:55,998 ERROR 29783 nodejs.ClusterClientNoResponseError: client no response in 2034780ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29783
+hostname: stempestdeMac-mini.local
+
+2024-09-02 09:07:52,721 INFO 3636 [egg:logger] init all loggers with options: {"dir":"/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"RedBookServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-09-02 09:07:52,978 INFO 3636 [egg:core] dump config after load, 7ms
+2024-09-02 09:07:53,011 INFO 3636 [egg-watcher] Start watching: ["/Users/xiaoshiliang/Downloads/redbookserver/app","/Users/xiaoshiliang/Downloads/redbookserver/config","/Users/xiaoshiliang/Downloads/redbookserver/mocks","/Users/xiaoshiliang/Downloads/redbookserver/mocks_proxy","/Users/xiaoshiliang/Downloads/redbookserver/app.js"]
+2024-09-02 09:07:53,011 INFO 3636 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/app"
+2024-09-02 09:07:53,011 INFO 3636 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/config"
+2024-09-02 09:07:53,011 INFO 3636 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/mocks"
+2024-09-02 09:07:53,012 INFO 3636 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/mocks_proxy"
+2024-09-02 09:07:53,012 INFO 3636 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/app.js"
+2024-09-02 09:07:53,012 INFO 3636 [egg-watcher:agent] watcher start success
+2024-09-02 09:07:53,024 INFO 3636 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇ [488ms] - #0 Process Start
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1809ms] - #1 Application Start
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1165ms] - #2 Load Plugin
+                                    ▇ [51ms] - #3 Load Config
+                                    ▇ [28ms] - #4 Require(0) config/config.default.ts
+                                    ▇ [2ms] - #5 Require(1) config/config.local.ts
+                                    ▇ [0ms] - #6 Require(2) node_modules/egg-session/config/config.default.js
+                                    ▇ [1ms] - #7 Require(3) node_modules/egg-security/config/config.default.js
+                                    ▇ [1ms] - #8 Require(4) node_modules/egg-jsonp/config/config.default.js
+                                    ▇ [0ms] - #9 Require(5) node_modules/egg-onerror/config/config.default.js
+                                    ▇ [0ms] - #10 Require(6) node_modules/egg-i18n/config/config.default.js
+                                    ▇ [1ms] - #11 Require(7) node_modules/egg-watcher/config/config.default.js
+                                    ▇ [0ms] - #12 Require(8) node_modules/egg-schedule/config/config.default.js
+                                    ▇ [0ms] - #13 Require(9) node_modules/egg-multipart/config/config.default.js
+                                    ▇ [0ms] - #14 Require(10) node_modules/egg-development/config/config.default.js
+                                    ▇ [0ms] - #15 Require(11) node_modules/egg-logrotator/config/config.default.js
+                                    ▇ [0ms] - #16 Require(12) node_modules/egg-static/config/config.default.js
+                                    ▇ [0ms] - #17 Require(13) node_modules/egg-view/config/config.default.js
+                                     ▇ [0ms] - #18 Require(14) node_modules/egg-tracer/config/config.default.js
+                                     ▇ [1ms] - #19 Require(15) node_modules/egg/config/config.default.js
+                                     ▇ [0ms] - #20 Require(16) config/config.default.ts
+                                     ▇ [1ms] - #21 Require(17) node_modules/egg-security/config/config.local.js
+                                     ▇ [0ms] - #22 Require(18) node_modules/egg-watcher/config/config.local.js
+                                     ▇ [0ms] - #23 Require(19) node_modules/egg-view/config/config.local.js
+                                     ▇ [0ms] - #24 Require(20) node_modules/egg/config/config.local.js
+                                     ▇ [0ms] - #25 Require(21) config/config.local.ts
+                                     ▇ [50ms] - #26 Load extend/agent.js
+                                     ▇ [2ms] - #27 Require(22) node_modules/egg-security/app/extend/agent.js
+                                     ▇ [35ms] - #28 Require(23) node_modules/egg-schedule/app/extend/agent.js
+                                      ▇ [1ms] - #29 Require(24) node_modules/egg-logrotator/app/extend/agent.js
+                                      ▇ [1ms] - #30 Require(25) node_modules/egg-tracer/app/extend/agent.js
+                                      ▇▇▇▇ [202ms] - #31 Load extend/context.js
+                                      ▇ [12ms] - #32 Require(26) node_modules/egg-security/app/extend/context.js
+                                      ▇ [2ms] - #33 Require(27) node_modules/egg-jsonp/app/extend/context.js
+                                      ▇ [0ms] - #34 Require(28) node_modules/egg-i18n/app/extend/context.js
+                                      ▇ [17ms] - #35 Require(29) node_modules/egg-multipart/app/extend/context.js
+                                       ▇ [1ms] - #36 Require(30) node_modules/egg-view/app/extend/context.js
+                                       ▇▇▇ [153ms] - #37 Require(31) node_modules/@eggjs/tegg-plugin/app/extend/context.js
+                                          ▇ [7ms] - #38 Require(32) node_modules/@eggjs/tegg-eventbus-plugin/app/extend/context.js
+                                          ▇ [1ms] - #39 Require(33) node_modules/egg-tracer/app/extend/context.js
+                                          ▇ [1ms] - #40 Require(34) node_modules/egg/app/extend/context.js
+                                          ▇ [34ms] - #41 Load agent.js
+                                          ▇ [1ms] - #42 Require(35) node_modules/egg-security/agent.js
+                                          ▇ [1ms] - #43 Require(36) node_modules/egg-onerror/agent.js
+                                          ▇ [5ms] - #44 Require(37) node_modules/egg-watcher/agent.js
+                                          ▇ [1ms] - #45 Require(38) node_modules/egg-schedule/agent.js
+                                          ▇ [10ms] - #46 Require(39) node_modules/egg-development/agent.js
+                                           ▇ [1ms] - #47 Require(40) node_modules/egg-logrotator/agent.js
+                                           ▇ [2ms] - #48 Require(41) node_modules/@eggjs/tegg-config/agent.js
+                                           ▇ [5ms] - #49 Require(42) node_modules/@eggjs/tegg-schedule-plugin/agent.js
+                                           ▇ [1ms] - #50 Require(43) node_modules/egg-tracer/agent.js
+                                           ▇ [1ms] - #51 Require(44) node_modules/egg/agent.js
+                                            ▇▇▇▇▇ [265ms] - #52 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                            ▇▇▇▇▇ [249ms] - #53 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                            ▇▇▇▇▇ [272ms] - #54 Before Start in node_modules/egg-development/agent.js:8:9
+2024-09-02 09:07:53,024 INFO 3636 [egg:core] dump config after ready, 3ms
+2024-09-02 13:20:25,520 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 1807872ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+
+2024-09-02 14:02:21,514 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 2456419ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+
+2024-09-02 18:37:56,329 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 1812863ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+
+2024-09-02 20:38:57,874 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 7201993ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+
+2024-09-02 21:06:23,653 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 1585964ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+
+2024-09-02 23:07:23,468 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 7199976ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+
+2024-09-03 01:08:21,242 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 7199960ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+

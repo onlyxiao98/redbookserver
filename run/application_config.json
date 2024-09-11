@@ -1,0 +1,706 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "logValue": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function v4>"
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": true,
+        "type": "ctoken",
+        "ignoreJSON": false,
+        "useSession": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "supportedRequests": [
+          {
+            "path": {},
+            "methods": [
+              "POST",
+              "PATCH",
+              "DELETE",
+              "PUT",
+              "CONNECT"
+            ]
+          }
+        ],
+        "refererWhiteList": [],
+        "cookieOptions": {
+          "signed": false
+        },
+        "matching": "<Function anonymous>"
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "ipExceptionList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-onerror/lib/onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-session/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-security/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-jsonp/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-onerror/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-i18n/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-watcher/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-schedule/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-multipart/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-development/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-logrotator/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-static/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-view/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/@eggjs/tegg-config/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/@eggjs/tegg-plugin/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/@eggjs/tegg-controller-plugin/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/@eggjs/tegg-schedule-plugin/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/@eggjs/tegg-eventbus-plugin/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/@eggjs/tegg-aop-plugin/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-tracer/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg/config/locales",
+        "/Users/xiaoshiliang/Downloads/redbookserver/config/locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieDomain": "",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "defaultParamCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null,
+      "allowArrayField": false,
+      "tmpdir": "/var/folders/79/bsxddmg571zcwfz2p9g2gzhm0000gq/T/egg-multipart-tmp/RedBookServer",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *",
+        "disable": false
+      },
+      "checkFile": "<Function anonymous>"
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false,
+      "overrideIgnore": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/xiaoshiliang/Downloads/redbookserver/app/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000
+    },
+    "view": {
+      "root": "/Users/xiaoshiliang/Downloads/redbookserver/app/view",
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {}
+    },
+    "tracer": {
+      "Class": "<Class Tracer>"
+    },
+    "env": "local",
+    "name": "RedBookServer",
+    "keys": "<String len: 32>",
+    "cookies": {},
+    "proxy": false,
+    "maxIpsCount": 0,
+    "maxProxyCount": 0,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "RedBookServer",
+      "version": "1.0.0",
+      "description": "小红书仿写服务端",
+      "localHost": "http://10.10.40.225",
+      "private": true,
+      "egg": {
+        "typescript": true
+      },
+      "scripts": {
+        "start": "egg-scripts start --daemon --title=egg-server-RedBookServer",
+        "stop": "egg-scripts stop --title=egg-server-RedBookServer",
+        "dev": "egg-bin dev",
+        "test-local": "egg-bin test -p",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "cov": "egg-bin cov -p",
+        "ci": "npm run lint && npm run cov && npm run tsc && npm run clean",
+        "lint": "eslint . --ext .ts --cache",
+        "tsc": "tsc",
+        "clean": "tsc -b --clean"
+      },
+      "dependencies": {
+        "@eggjs/tegg": "^3.5.2",
+        "@eggjs/tegg-aop-plugin": "^3.5.2",
+        "@eggjs/tegg-config": "^3.2.3",
+        "@eggjs/tegg-controller-plugin": "^3.5.2",
+        "@eggjs/tegg-eventbus-plugin": "^3.5.2",
+        "@eggjs/tegg-plugin": "^3.5.2",
+        "@eggjs/tegg-schedule-plugin": "^3.5.2",
+        "egg": "^3.15.0",
+        "egg-scripts": "^2.17.0",
+        "egg-tracer": "^2.0.0"
+      },
+      "devDependencies": {
+        "@eggjs/tsconfig": "1",
+        "@types/mocha": "10",
+        "@types/node": "18",
+        "egg-bin": "6",
+        "egg-mock": "5",
+        "eslint": "8",
+        "eslint-config-egg": "12",
+        "typescript": "4"
+      },
+      "engines": {
+        "node": ">=18.0.0"
+      },
+      "repository": {
+        "type": "git",
+        "url": ""
+      },
+      "author": "大公爵",
+      "license": "MIT"
+    },
+    "baseDir": "/Users/xiaoshiliang/Downloads/redbookserver",
+    "HOME": "/Users/xiaoshiliang",
+    "rundir": "/Users/xiaoshiliang/Downloads/redbookserver/run",
+    "dump": {
+      "ignore": "<Set>",
+      "timing": {
+        "slowBootActionMinDuration": 5000
+      }
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 6463>",
+      "cacheControl": "public, max-age=2592000"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "1mb",
+      "jsonLimit": "1mb",
+      "textLimit": "1mb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "INFO",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "RedBookServer-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "enablePerformanceTimer": false,
+      "enableFastContextLogger": false,
+      "type": "application",
+      "localStorage": "<AsyncLocalStorage>"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "useHttpClientNext": false
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "teggRootProto",
+      "teggCtxLifecycleMiddleware",
+      "session",
+      "securities",
+      "i18n",
+      "eggLoaderTrace"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "middleware": [],
+    "sourceUrl": "https://github.com/eggjs/examples/tree/master/RedBookServer",
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware"
+  },
+  "plugins": {
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg/config/plugin.js",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-onerror",
+      "version": "2.2.0"
+    },
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg/config/plugin.js",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-session",
+      "version": "3.3.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg/config/plugin.js",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-i18n",
+      "version": "2.1.1"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg/config/plugin.js",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-watcher",
+      "version": "3.1.1",
+      "dependents": [
+        "development"
+      ]
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg/config/plugin.js",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-multipart",
+      "version": "3.4.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg/config/plugin.js",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-security",
+      "version": "3.3.1"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg/config/plugin.js",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-development",
+      "version": "3.0.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg/config/plugin.js",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-logrotator",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg/config/plugin.js",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-schedule",
+      "version": "4.0.1",
+      "dependents": [
+        "logrotator",
+        "teggSchedule"
+      ]
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg/config/plugin.js",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-static",
+      "version": "2.3.1"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg/config/plugin.js",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg/config/plugin.js",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-view",
+      "version": "2.1.4"
+    },
+    "tegg": {
+      "enable": true,
+      "package": "@eggjs/tegg-plugin",
+      "name": "tegg",
+      "dependencies": [
+        "teggConfig"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/config/plugin.ts",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/@eggjs/tegg-plugin",
+      "version": "3.39.3",
+      "dependents": [
+        "teggController",
+        "teggSchedule",
+        "eventbusModule",
+        "aopModule"
+      ]
+    },
+    "teggConfig": {
+      "enable": true,
+      "package": "@eggjs/tegg-config",
+      "name": "teggConfig",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/config/plugin.ts",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/@eggjs/tegg-config",
+      "version": "3.39.3",
+      "dependents": [
+        "tegg"
+      ]
+    },
+    "teggController": {
+      "enable": true,
+      "package": "@eggjs/tegg-controller-plugin",
+      "name": "teggController",
+      "dependencies": [
+        "tegg"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/config/plugin.ts",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/@eggjs/tegg-controller-plugin",
+      "version": "3.39.3"
+    },
+    "teggSchedule": {
+      "enable": true,
+      "package": "@eggjs/tegg-schedule-plugin",
+      "name": "teggSchedule",
+      "dependencies": [
+        "tegg",
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/config/plugin.ts",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/@eggjs/tegg-schedule-plugin",
+      "version": "3.39.3"
+    },
+    "eventbusModule": {
+      "enable": true,
+      "package": "@eggjs/tegg-eventbus-plugin",
+      "name": "eventbusModule",
+      "dependencies": [
+        "tegg"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/config/plugin.ts",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/@eggjs/tegg-eventbus-plugin",
+      "version": "3.39.3"
+    },
+    "aopModule": {
+      "enable": true,
+      "package": "@eggjs/tegg-aop-plugin",
+      "name": "aopModule",
+      "dependencies": [
+        "tegg"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/config/plugin.ts",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/@eggjs/tegg-aop-plugin",
+      "version": "3.39.3"
+    },
+    "tracer": {
+      "enable": true,
+      "package": "egg-tracer",
+      "name": "tracer",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xiaoshiliang/Downloads/redbookserver/config/plugin.ts",
+      "path": "/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-tracer",
+      "version": "2.1.0"
+    }
+  },
+  "appInfo": {
+    "name": "RedBookServer",
+    "baseDir": "/Users/xiaoshiliang/Downloads/redbookserver",
+    "env": "local",
+    "scope": "",
+    "HOME": "/Users/xiaoshiliang",
+    "pkg": {
+      "name": "RedBookServer",
+      "version": "1.0.0",
+      "description": "小红书仿写服务端",
+      "localHost": "http://10.10.40.225",
+      "private": true,
+      "egg": {
+        "typescript": true
+      },
+      "scripts": {
+        "start": "egg-scripts start --daemon --title=egg-server-RedBookServer",
+        "stop": "egg-scripts stop --title=egg-server-RedBookServer",
+        "dev": "egg-bin dev",
+        "test-local": "egg-bin test -p",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "cov": "egg-bin cov -p",
+        "ci": "npm run lint && npm run cov && npm run tsc && npm run clean",
+        "lint": "eslint . --ext .ts --cache",
+        "tsc": "tsc",
+        "clean": "tsc -b --clean"
+      },
+      "dependencies": {
+        "@eggjs/tegg": "^3.5.2",
+        "@eggjs/tegg-aop-plugin": "^3.5.2",
+        "@eggjs/tegg-config": "^3.2.3",
+        "@eggjs/tegg-controller-plugin": "^3.5.2",
+        "@eggjs/tegg-eventbus-plugin": "^3.5.2",
+        "@eggjs/tegg-plugin": "^3.5.2",
+        "@eggjs/tegg-schedule-plugin": "^3.5.2",
+        "egg": "^3.15.0",
+        "egg-scripts": "^2.17.0",
+        "egg-tracer": "^2.0.0"
+      },
+      "devDependencies": {
+        "@eggjs/tsconfig": "1",
+        "@types/mocha": "10",
+        "@types/node": "18",
+        "egg-bin": "6",
+        "egg-mock": "5",
+        "eslint": "8",
+        "eslint-config-egg": "12",
+        "typescript": "4"
+      },
+      "engines": {
+        "node": ">=18.0.0"
+      },
+      "repository": {
+        "type": "git",
+        "url": ""
+      },
+      "author": "大公爵",
+      "license": "MIT"
+    },
+    "root": "/Users/xiaoshiliang/Downloads/redbookserver"
+  }
+}

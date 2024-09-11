@@ -1,0 +1,128 @@
+2024-09-02 00:21:37,451 INFO 29785 [egg-logrotator] app logger reload: got log-reload message
+2024-09-02 02:23:49,285 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-02 02:23:49,293 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-02 04:24:53,602 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-02 04:24:53,606 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-02 06:25:57,240 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-02 06:25:57,247 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-02 06:25:57,448 INFO 29785 [-/127.0.0.1/df906dce-8f1a-481e-90d4-d4b64fcba3fa/24ms SCHEDULE /__schedule?path=/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/79/bsxddmg571zcwfz2p9g2gzhm0000gq/T/egg-multipart-tmp/RedBookServer"
+2024-09-02 06:25:57,477 INFO 29785 [-/127.0.0.1/df906dce-8f1a-481e-90d4-d4b64fcba3fa/55ms SCHEDULE /__schedule?path=/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2024-09-02 08:27:00,897 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-02 08:27:00,923 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-02 09:01:55,995 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-02 09:01:56,000 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-02 09:07:54,982 INFO 3642 [egg:logger] init all loggers with options: {"dir":"/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"RedBookServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"application","localStorage":{"enabled":false}}
+2024-09-02 09:07:54,982 INFO 3642 [egg-multipart] stream mode enable
+2024-09-02 09:07:55,112 INFO 3642 [egg-static] starting static serve /public/ -> /Users/xiaoshiliang/Downloads/redbookserver/app/public
+2024-09-02 09:07:55,114 INFO 3642 [egg-security] use csrf middleware
+2024-09-02 09:07:55,115 INFO 3642 [egg-security] use methodnoallow middleware
+2024-09-02 09:07:55,115 INFO 3642 [egg-security] use noopen middleware
+2024-09-02 09:07:55,117 INFO 3642 [egg-security] use nosniff middleware
+2024-09-02 09:07:55,118 INFO 3642 [egg-security] use xssProtection middleware
+2024-09-02 09:07:55,118 INFO 3642 [egg-security] use xframe middleware
+2024-09-02 09:07:55,119 INFO 3642 [egg-security] use dta middleware
+2024-09-02 09:07:55,119 INFO 3642 [egg-security] compose 7 middlewares into one security middleware
+2024-09-02 09:07:55,126 INFO 3642 [egg:core] dump config after load, 6ms
+2024-09-02 09:07:55,391 INFO 3642 [egg-watcher:application] watcher start success
+2024-09-02 09:07:55,396 INFO 3642 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇ [501ms] - #0 Process Start
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1857ms] - #1 Application Start
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1092ms] - #2 Load Plugin
+                                 ▇ [49ms] - #3 Load Config
+                                 ▇ [27ms] - #4 Require(0) config/config.default.ts
+                                  ▇ [2ms] - #5 Require(1) config/config.local.ts
+                                  ▇ [0ms] - #6 Require(2) node_modules/egg-session/config/config.default.js
+                                  ▇ [0ms] - #7 Require(3) node_modules/egg-security/config/config.default.js
+                                  ▇ [0ms] - #8 Require(4) node_modules/egg-jsonp/config/config.default.js
+                                  ▇ [1ms] - #9 Require(5) node_modules/egg-onerror/config/config.default.js
+                                  ▇ [0ms] - #10 Require(6) node_modules/egg-i18n/config/config.default.js
+                                  ▇ [0ms] - #11 Require(7) node_modules/egg-watcher/config/config.default.js
+                                  ▇ [0ms] - #12 Require(8) node_modules/egg-schedule/config/config.default.js
+                                  ▇ [1ms] - #13 Require(9) node_modules/egg-multipart/config/config.default.js
+                                  ▇ [0ms] - #14 Require(10) node_modules/egg-development/config/config.default.js
+                                  ▇ [0ms] - #15 Require(11) node_modules/egg-logrotator/config/config.default.js
+                                  ▇ [1ms] - #16 Require(12) node_modules/egg-static/config/config.default.js
+                                  ▇ [0ms] - #17 Require(13) node_modules/egg-view/config/config.default.js
+                                  ▇ [0ms] - #18 Require(14) node_modules/egg-tracer/config/config.default.js
+                                  ▇ [0ms] - #19 Require(15) node_modules/egg/config/config.default.js
+                                  ▇ [0ms] - #20 Require(16) config/config.default.ts
+                                  ▇ [0ms] - #21 Require(17) node_modules/egg-security/config/config.local.js
+                                  ▇ [0ms] - #22 Require(18) node_modules/egg-watcher/config/config.local.js
+                                  ▇ [0ms] - #23 Require(19) node_modules/egg-view/config/config.local.js
+                                  ▇ [0ms] - #24 Require(20) node_modules/egg/config/config.local.js
+                                  ▇ [0ms] - #25 Require(21) config/config.local.ts
+                                  ▇▇ [126ms] - #26 Load extend/application.js
+                                  ▇ [2ms] - #27 Require(22) node_modules/egg-session/app/extend/application.js
+                                  ▇ [1ms] - #28 Require(23) node_modules/egg-security/app/extend/application.js
+                                   ▇ [1ms] - #29 Require(24) node_modules/egg-jsonp/app/extend/application.js
+                                   ▇ [1ms] - #30 Require(25) node_modules/egg-schedule/app/extend/application.js
+                                   ▇ [1ms] - #31 Require(26) node_modules/egg-logrotator/app/extend/application.js
+                                   ▇ [2ms] - #32 Require(27) node_modules/egg-view/app/extend/application.js
+                                   ▇▇ [105ms] - #33 Require(28) node_modules/@eggjs/tegg-plugin/app/extend/application.js
+                                     ▇ [1ms] - #34 Require(29) node_modules/egg-tracer/app/extend/application.js
+                                     ▇ [8ms] - #35 Load extend/request.js
+                                     ▇ [1ms] - #36 Require(30) node_modules/egg/app/extend/request.js
+                                     ▇ [10ms] - #37 Load extend/response.js
+                                     ▇ [2ms] - #38 Require(31) node_modules/egg/app/extend/response.js
+                                     ▇ [27ms] - #39 Load extend/context.js
+                                     ▇ [5ms] - #40 Require(32) node_modules/egg-security/app/extend/context.js
+                                      ▇ [1ms] - #41 Require(33) node_modules/egg-jsonp/app/extend/context.js
+                                      ▇ [0ms] - #42 Require(34) node_modules/egg-i18n/app/extend/context.js
+                                      ▇ [7ms] - #43 Require(35) node_modules/egg-multipart/app/extend/context.js
+                                      ▇ [1ms] - #44 Require(36) node_modules/egg-view/app/extend/context.js
+                                      ▇ [2ms] - #45 Require(37) node_modules/@eggjs/tegg-plugin/app/extend/context.js
+                                      ▇ [5ms] - #46 Require(38) node_modules/@eggjs/tegg-eventbus-plugin/app/extend/context.js
+                                      ▇ [0ms] - #47 Require(39) node_modules/egg-tracer/app/extend/context.js
+                                      ▇ [1ms] - #48 Require(40) node_modules/egg/app/extend/context.js
+                                      ▇ [21ms] - #49 Load extend/helper.js
+                                      ▇ [14ms] - #50 Require(41) node_modules/egg-security/app/extend/helper.js
+                                      ▇ [0ms] - #51 Require(42) node_modules/egg/app/extend/helper.js
+                                       ▇▇ [104ms] - #52 Load app.js
+                                       ▇ [1ms] - #53 Require(43) node_modules/egg-session/app.js
+                                       ▇ [2ms] - #54 Require(44) node_modules/egg-security/app.js
+                                       ▇ [12ms] - #55 Require(45) node_modules/egg-onerror/app.js
+                                       ▇ [14ms] - #56 Require(46) node_modules/egg-i18n/app.js
+                                       ▇ [2ms] - #57 Require(47) node_modules/egg-watcher/app.js
+                                       ▇ [2ms] - #58 Require(48) node_modules/egg-schedule/app.js
+                                       ▇ [2ms] - #59 Require(49) node_modules/egg-multipart/app.js
+                                       ▇ [1ms] - #60 Require(50) node_modules/egg-development/app.js
+                                       ▇ [1ms] - #61 Require(51) node_modules/egg-logrotator/app.js
+                                       ▇ [0ms] - #62 Require(52) node_modules/egg-static/app.js
+                                       ▇ [1ms] - #63 Require(53) node_modules/@eggjs/tegg-config/app.js
+                                       ▇ [24ms] - #64 Require(54) node_modules/@eggjs/tegg-plugin/app.js
+                                        ▇ [24ms] - #65 Require(55) node_modules/@eggjs/tegg-controller-plugin/app.js
+                                        ▇ [2ms] - #66 Require(56) node_modules/@eggjs/tegg-schedule-plugin/app.js
+                                         ▇ [2ms] - #67 Require(57) node_modules/@eggjs/tegg-eventbus-plugin/app.js
+                                         ▇ [5ms] - #68 Require(58) node_modules/@eggjs/tegg-aop-plugin/app.js
+                                         ▇ [1ms] - #69 Require(59) node_modules/egg-tracer/app.js
+                                         ▇▇▇▇▇▇▇▇ [384ms] - #70 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                          ▇▇▇▇▇▇▇ [349ms] - #71 Did Load in node_modules/@eggjs/tegg-plugin/app.js:didLoad
+                                          ▇▇▇▇▇▇▇ [355ms] - #72 Did Load in node_modules/@eggjs/tegg-controller-plugin/app.js:didLoad
+                                          ▇▇▇▇▇▇▇ [350ms] - #73 Did Load in node_modules/@eggjs/tegg-eventbus-plugin/app.js:didLoad
+                                          ▇▇▇▇▇▇▇ [350ms] - #74 Did Load in node_modules/@eggjs/tegg-aop-plugin/app.js:didLoad
+                                          ▇ [6ms] - #75 Load Service
+                                          ▇ [6ms] - #76 Load "service" to Context
+                                          ▇ [86ms] - #77 Load Middleware
+                                          ▇ [78ms] - #78 Load "middlewares" to Application
+                                            ▇ [1ms] - #79 Load Controller
+                                            ▇ [1ms] - #80 Load "controller" to Application
+                                            ▇ [0ms] - #81 Load Router
+                                            ▇ [14ms] - #82 Before Start in node_modules/egg-core/lib/egg.js:306:10
+2024-09-02 09:07:55,396 INFO 3642 [egg:core] dump config after ready, 4ms
+2024-09-02 13:20:25,520 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-02 13:20:25,536 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-02 14:02:21,511 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-02 14:02:21,511 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-02 18:37:56,330 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-02 18:37:56,332 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-02 20:38:57,872 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-02 20:38:57,872 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-02 21:06:23,645 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-02 21:06:23,645 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-02 23:07:23,465 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-02 23:07:23,465 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-03 01:08:21,199 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-03 01:08:21,199 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-03 01:08:21,310 INFO 3642 [-/127.0.0.1/351c5b99-da92-4bc9-8fc4-81fbc686126d/44ms SCHEDULE /__schedule?path=/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-logrotator/app/schedule/clean_log.js&type=worker&cron=0%200%20*%20*%20*] [egg-logrotator] clean all log before 31 days
+2024-09-03 01:08:21,326 INFO 3642 [-/127.0.0.1/20bbf79d-d65b-4076-b7df-85b310596648/53ms SCHEDULE /__schedule?path=/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-logrotator/app/schedule/rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [egg-logrotator] broadcast log-reload
+2024-09-03 01:08:21,326 INFO 3642 [-/127.0.0.1/20bbf79d-d65b-4076-b7df-85b310596648/53ms SCHEDULE /__schedule?path=/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-logrotator/app/schedule/rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [egg-logrotator] rotate files success by DayRotator, files ["/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/common-error.log -> /Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/common-error.log.2024-09-02","/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/RedBookServer-web.log -> /Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/RedBookServer-web.log.2024-09-02","/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/egg-web.log -> /Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/egg-web.log.2024-09-02","/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/egg-schedule.log -> /Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/egg-schedule.log.2024-09-02","/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/egg-agent.log -> /Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/egg-agent.log.2024-09-02"]

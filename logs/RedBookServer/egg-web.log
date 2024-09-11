@@ -1,0 +1,19 @@
+2024-09-03 01:08:21,329 INFO 3642 [egg-logrotator] app logger reload: got log-reload message
+2024-09-03 03:10:28,868 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-03 03:10:28,868 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-03 03:41:36,645 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-03 03:41:36,645 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-03 05:42:36,523 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-03 05:42:36,524 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-03 05:42:36,535 INFO 3642 [-/127.0.0.1/d3feb20a-36b5-4955-8635-4b26b1afe7e2/10ms SCHEDULE /__schedule?path=/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/79/bsxddmg571zcwfz2p9g2gzhm0000gq/T/egg-multipart-tmp/RedBookServer"
+2024-09-03 05:42:36,546 INFO 3642 [-/127.0.0.1/d3feb20a-36b5-4955-8635-4b26b1afe7e2/22ms SCHEDULE /__schedule?path=/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2024-09-03 07:43:37,163 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-03 07:43:37,163 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-03 09:00:39,283 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-03 09:00:39,283 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-03 13:20:36,206 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-03 13:20:36,209 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-03 13:39:31,609 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-03 13:39:31,610 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-09-03 14:02:08,792 WARN 3642 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-09-03 14:02:08,794 WARN 3642 [ClusterClient:Watcher] follower closed, and try to init it again

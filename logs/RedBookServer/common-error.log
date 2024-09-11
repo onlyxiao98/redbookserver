@@ -1,0 +1,64 @@
+2024-09-03 03:10:28,868 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 7205922ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+
+2024-09-03 03:41:36,647 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 1808022ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+
+2024-09-03 05:42:36,532 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 7199953ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+
+2024-09-03 07:43:37,163 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 7200961ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+
+2024-09-03 09:00:39,283 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 4562477ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+
+2024-09-03 13:20:36,199 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 1815003ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+
+2024-09-03 13:39:31,610 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 1075914ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+
+2024-09-03 14:02:08,794 ERROR 3636 nodejs.ClusterClientNoResponseError: client no response in 1297222ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 3636
+hostname: stempestdeMac-mini.local
+

@@ -1,0 +1,385 @@
+2024-07-08 00:12:57,776 INFO 43438 [egg-logrotator] agent logger reload: got log-reload message
+2024-07-08 02:15:16,382 ERROR 43438 nodejs.ClusterClientNoResponseError: client no response in 7218463ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 43438
+hostname: stempestdeMac-mini.local
+
+2024-07-08 04:17:47,183 ERROR 43438 nodejs.ClusterClientNoResponseError: client no response in 7210776ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 43438
+hostname: stempestdeMac-mini.local
+
+2024-07-08 06:19:08,497 ERROR 43438 nodejs.ClusterClientNoResponseError: client no response in 7221414ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 43438
+hostname: stempestdeMac-mini.local
+
+2024-07-08 08:20:25,179 ERROR 43438 nodejs.ClusterClientNoResponseError: client no response in 7216830ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 43438
+hostname: stempestdeMac-mini.local
+
+2024-07-08 09:01:34,177 ERROR 43438 nodejs.ClusterClientNoResponseError: client no response in 2408792ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 43438
+hostname: stempestdeMac-mini.local
+
+2024-07-08 09:38:22,745 INFO 22258 [egg:logger] init all loggers with options: {"dir":"/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"RedBookServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-07-08 09:38:23,017 INFO 22258 [egg:core] dump config after load, 5ms
+2024-07-08 09:38:23,052 INFO 22258 [egg-watcher] Start watching: ["/Users/xiaoshiliang/Downloads/redbookserver/app","/Users/xiaoshiliang/Downloads/redbookserver/config","/Users/xiaoshiliang/Downloads/redbookserver/mocks","/Users/xiaoshiliang/Downloads/redbookserver/mocks_proxy","/Users/xiaoshiliang/Downloads/redbookserver/app.js"]
+2024-07-08 09:38:23,052 INFO 22258 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/app"
+2024-07-08 09:38:23,052 INFO 22258 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/config"
+2024-07-08 09:38:23,052 INFO 22258 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/mocks"
+2024-07-08 09:38:23,052 INFO 22258 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/mocks_proxy"
+2024-07-08 09:38:23,052 INFO 22258 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/app.js"
+2024-07-08 09:38:23,053 INFO 22258 [egg-watcher:agent] watcher start success
+2024-07-08 09:38:23,064 INFO 22258 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇ [498ms] - #0 Process Start
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1875ms] - #1 Application Start
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1218ms] - #2 Load Plugin
+                                    ▇ [51ms] - #3 Load Config
+                                    ▇ [29ms] - #4 Require(0) config/config.default.ts
+                                    ▇ [2ms] - #5 Require(1) config/config.local.ts
+                                    ▇ [1ms] - #6 Require(2) node_modules/egg-session/config/config.default.js
+                                    ▇ [0ms] - #7 Require(3) node_modules/egg-security/config/config.default.js
+                                     ▇ [0ms] - #8 Require(4) node_modules/egg-jsonp/config/config.default.js
+                                     ▇ [0ms] - #9 Require(5) node_modules/egg-onerror/config/config.default.js
+                                     ▇ [1ms] - #10 Require(6) node_modules/egg-i18n/config/config.default.js
+                                     ▇ [1ms] - #11 Require(7) node_modules/egg-watcher/config/config.default.js
+                                     ▇ [0ms] - #12 Require(8) node_modules/egg-schedule/config/config.default.js
+                                     ▇ [0ms] - #13 Require(9) node_modules/egg-multipart/config/config.default.js
+                                     ▇ [1ms] - #14 Require(10) node_modules/egg-development/config/config.default.js
+                                     ▇ [0ms] - #15 Require(11) node_modules/egg-logrotator/config/config.default.js
+                                     ▇ [0ms] - #16 Require(12) node_modules/egg-static/config/config.default.js
+                                     ▇ [1ms] - #17 Require(13) node_modules/egg-view/config/config.default.js
+                                     ▇ [1ms] - #18 Require(14) node_modules/egg-tracer/config/config.default.js
+                                     ▇ [0ms] - #19 Require(15) node_modules/egg/config/config.default.js
+                                     ▇ [0ms] - #20 Require(16) config/config.default.ts
+                                     ▇ [0ms] - #21 Require(17) node_modules/egg-security/config/config.local.js
+                                     ▇ [0ms] - #22 Require(18) node_modules/egg-watcher/config/config.local.js
+                                     ▇ [0ms] - #23 Require(19) node_modules/egg-view/config/config.local.js
+                                     ▇ [1ms] - #24 Require(20) node_modules/egg/config/config.local.js
+                                     ▇ [0ms] - #25 Require(21) config/config.local.ts
+                                     ▇ [41ms] - #26 Load extend/agent.js
+                                     ▇ [2ms] - #27 Require(22) node_modules/egg-security/app/extend/agent.js
+                                     ▇ [28ms] - #28 Require(23) node_modules/egg-schedule/app/extend/agent.js
+                                      ▇ [1ms] - #29 Require(24) node_modules/egg-logrotator/app/extend/agent.js
+                                      ▇ [1ms] - #30 Require(25) node_modules/egg-tracer/app/extend/agent.js
+                                      ▇▇▇▇ [200ms] - #31 Load extend/context.js
+                                      ▇ [14ms] - #32 Require(26) node_modules/egg-security/app/extend/context.js
+                                      ▇ [2ms] - #33 Require(27) node_modules/egg-jsonp/app/extend/context.js
+                                      ▇ [0ms] - #34 Require(28) node_modules/egg-i18n/app/extend/context.js
+                                      ▇ [15ms] - #35 Require(29) node_modules/egg-multipart/app/extend/context.js
+                                       ▇ [1ms] - #36 Require(30) node_modules/egg-view/app/extend/context.js
+                                       ▇▇▇ [151ms] - #37 Require(31) node_modules/@eggjs/tegg-plugin/app/extend/context.js
+                                          ▇ [6ms] - #38 Require(32) node_modules/@eggjs/tegg-eventbus-plugin/app/extend/context.js
+                                          ▇ [1ms] - #39 Require(33) node_modules/egg-tracer/app/extend/context.js
+                                          ▇ [1ms] - #40 Require(34) node_modules/egg/app/extend/context.js
+                                          ▇ [35ms] - #41 Load agent.js
+                                          ▇ [1ms] - #42 Require(35) node_modules/egg-security/agent.js
+                                          ▇ [1ms] - #43 Require(36) node_modules/egg-onerror/agent.js
+                                          ▇ [6ms] - #44 Require(37) node_modules/egg-watcher/agent.js
+                                          ▇ [2ms] - #45 Require(38) node_modules/egg-schedule/agent.js
+                                          ▇ [9ms] - #46 Require(39) node_modules/egg-development/agent.js
+                                          ▇ [1ms] - #47 Require(40) node_modules/egg-logrotator/agent.js
+                                           ▇ [2ms] - #48 Require(41) node_modules/@eggjs/tegg-config/agent.js
+                                           ▇ [4ms] - #49 Require(42) node_modules/@eggjs/tegg-schedule-plugin/agent.js
+                                           ▇ [1ms] - #50 Require(43) node_modules/egg-tracer/agent.js
+                                           ▇ [1ms] - #51 Require(44) node_modules/egg/agent.js
+                                           ▇▇▇▇▇ [281ms] - #52 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                           ▇▇▇▇▇ [265ms] - #53 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                           ▇▇▇▇▇▇ [288ms] - #54 Before Start in node_modules/egg-development/agent.js:8:9
+2024-07-08 09:38:23,064 INFO 22258 [egg:core] dump config after ready, 2ms
+2024-08-23 12:47:33,459 INFO 28879 [egg:logger] init all loggers with options: {"dir":"/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"RedBookServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-23 12:47:33,733 INFO 28879 [egg:core] dump config after load, 6ms
+2024-08-23 12:47:33,775 INFO 28879 [egg-watcher] Start watching: ["/Users/xiaoshiliang/Downloads/redbookserver/app","/Users/xiaoshiliang/Downloads/redbookserver/config","/Users/xiaoshiliang/Downloads/redbookserver/mocks","/Users/xiaoshiliang/Downloads/redbookserver/mocks_proxy","/Users/xiaoshiliang/Downloads/redbookserver/app.js"]
+2024-08-23 12:47:33,775 INFO 28879 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/app"
+2024-08-23 12:47:33,775 INFO 28879 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/config"
+2024-08-23 12:47:33,776 INFO 28879 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/mocks"
+2024-08-23 12:47:33,776 INFO 28879 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/mocks_proxy"
+2024-08-23 12:47:33,776 INFO 28879 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/app.js"
+2024-08-23 12:47:33,776 INFO 28879 [egg-watcher:agent] watcher start success
+2024-08-23 12:47:33,788 INFO 28879 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [867ms] - #0 Process Start
+              ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2220ms] - #1 Application Start
+              ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1547ms] - #2 Load Plugin
+                                       ▇ [52ms] - #3 Load Config
+                                       ▇ [29ms] - #4 Require(0) config/config.default.ts
+                                       ▇ [2ms] - #5 Require(1) config/config.local.ts
+                                       ▇ [0ms] - #6 Require(2) node_modules/egg-session/config/config.default.js
+                                       ▇ [1ms] - #7 Require(3) node_modules/egg-security/config/config.default.js
+                                       ▇ [1ms] - #8 Require(4) node_modules/egg-jsonp/config/config.default.js
+                                       ▇ [0ms] - #9 Require(5) node_modules/egg-onerror/config/config.default.js
+                                       ▇ [0ms] - #10 Require(6) node_modules/egg-i18n/config/config.default.js
+                                       ▇ [1ms] - #11 Require(7) node_modules/egg-watcher/config/config.default.js
+                                       ▇ [0ms] - #12 Require(8) node_modules/egg-schedule/config/config.default.js
+                                       ▇ [0ms] - #13 Require(9) node_modules/egg-multipart/config/config.default.js
+                                       ▇ [0ms] - #14 Require(10) node_modules/egg-development/config/config.default.js
+                                       ▇ [1ms] - #15 Require(11) node_modules/egg-logrotator/config/config.default.js
+                                       ▇ [0ms] - #16 Require(12) node_modules/egg-static/config/config.default.js
+                                       ▇ [0ms] - #17 Require(13) node_modules/egg-view/config/config.default.js
+                                       ▇ [0ms] - #18 Require(14) node_modules/egg-tracer/config/config.default.js
+                                       ▇ [1ms] - #19 Require(15) node_modules/egg/config/config.default.js
+                                       ▇ [0ms] - #20 Require(16) config/config.default.ts
+                                       ▇ [1ms] - #21 Require(17) node_modules/egg-security/config/config.local.js
+                                        ▇ [1ms] - #22 Require(18) node_modules/egg-watcher/config/config.local.js
+                                        ▇ [0ms] - #23 Require(19) node_modules/egg-view/config/config.local.js
+                                        ▇ [0ms] - #24 Require(20) node_modules/egg/config/config.local.js
+                                        ▇ [0ms] - #25 Require(21) config/config.local.ts
+                                        ▇ [44ms] - #26 Load extend/agent.js
+                                        ▇ [1ms] - #27 Require(22) node_modules/egg-security/app/extend/agent.js
+                                        ▇ [31ms] - #28 Require(23) node_modules/egg-schedule/app/extend/agent.js
+                                        ▇ [1ms] - #29 Require(24) node_modules/egg-logrotator/app/extend/agent.js
+                                        ▇ [1ms] - #30 Require(25) node_modules/egg-tracer/app/extend/agent.js
+                                        ▇▇▇ [207ms] - #31 Load extend/context.js
+                                        ▇ [11ms] - #32 Require(26) node_modules/egg-security/app/extend/context.js
+                                        ▇ [2ms] - #33 Require(27) node_modules/egg-jsonp/app/extend/context.js
+                                         ▇ [0ms] - #34 Require(28) node_modules/egg-i18n/app/extend/context.js
+                                         ▇ [17ms] - #35 Require(29) node_modules/egg-multipart/app/extend/context.js
+                                         ▇ [1ms] - #36 Require(30) node_modules/egg-view/app/extend/context.js
+                                         ▇▇ [158ms] - #37 Require(31) node_modules/@eggjs/tegg-plugin/app/extend/context.js
+                                           ▇ [7ms] - #38 Require(32) node_modules/@eggjs/tegg-eventbus-plugin/app/extend/context.js
+                                            ▇ [0ms] - #39 Require(33) node_modules/egg-tracer/app/extend/context.js
+                                            ▇ [1ms] - #40 Require(34) node_modules/egg/app/extend/context.js
+                                            ▇ [34ms] - #41 Load agent.js
+                                            ▇ [1ms] - #42 Require(35) node_modules/egg-security/agent.js
+                                            ▇ [1ms] - #43 Require(36) node_modules/egg-onerror/agent.js
+                                            ▇ [6ms] - #44 Require(37) node_modules/egg-watcher/agent.js
+                                            ▇ [1ms] - #45 Require(38) node_modules/egg-schedule/agent.js
+                                            ▇ [11ms] - #46 Require(39) node_modules/egg-development/agent.js
+                                            ▇ [1ms] - #47 Require(40) node_modules/egg-logrotator/agent.js
+                                            ▇ [2ms] - #48 Require(41) node_modules/@eggjs/tegg-config/agent.js
+                                            ▇ [4ms] - #49 Require(42) node_modules/@eggjs/tegg-schedule-plugin/agent.js
+                                            ▇ [1ms] - #50 Require(43) node_modules/egg-tracer/agent.js
+                                            ▇ [1ms] - #51 Require(44) node_modules/egg/agent.js
+                                             ▇▇▇▇ [291ms] - #52 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                             ▇▇▇▇ [278ms] - #53 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                             ▇▇▇▇ [298ms] - #54 Before Start in node_modules/egg-development/agent.js:8:9
+2024-08-23 12:47:33,788 INFO 28879 [egg:core] dump config after ready, 3ms
+2024-08-23 12:49:34,978 INFO 29158 [egg:logger] init all loggers with options: {"dir":"/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"RedBookServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-23 12:49:35,244 INFO 29158 [egg:core] dump config after load, 6ms
+2024-08-23 12:49:35,281 INFO 29158 [egg-watcher] Start watching: ["/Users/xiaoshiliang/Downloads/redbookserver/app","/Users/xiaoshiliang/Downloads/redbookserver/config","/Users/xiaoshiliang/Downloads/redbookserver/mocks","/Users/xiaoshiliang/Downloads/redbookserver/mocks_proxy","/Users/xiaoshiliang/Downloads/redbookserver/app.js"]
+2024-08-23 12:49:35,281 INFO 29158 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/app"
+2024-08-23 12:49:35,282 INFO 29158 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/config"
+2024-08-23 12:49:35,282 INFO 29158 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/mocks"
+2024-08-23 12:49:35,282 INFO 29158 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/mocks_proxy"
+2024-08-23 12:49:35,282 INFO 29158 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/app.js"
+2024-08-23 12:49:35,282 INFO 29158 [egg-watcher:agent] watcher start success
+2024-08-23 12:49:35,292 INFO 29158 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇ [503ms] - #0 Process Start
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1876ms] - #1 Application Start
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1216ms] - #2 Load Plugin
+                                    ▇ [53ms] - #3 Load Config
+                                    ▇ [28ms] - #4 Require(0) config/config.default.ts
+                                    ▇ [2ms] - #5 Require(1) config/config.local.ts
+                                    ▇ [0ms] - #6 Require(2) node_modules/egg-session/config/config.default.js
+                                    ▇ [0ms] - #7 Require(3) node_modules/egg-security/config/config.default.js
+                                    ▇ [0ms] - #8 Require(4) node_modules/egg-jsonp/config/config.default.js
+                                    ▇ [1ms] - #9 Require(5) node_modules/egg-onerror/config/config.default.js
+                                     ▇ [0ms] - #10 Require(6) node_modules/egg-i18n/config/config.default.js
+                                     ▇ [0ms] - #11 Require(7) node_modules/egg-watcher/config/config.default.js
+                                     ▇ [0ms] - #12 Require(8) node_modules/egg-schedule/config/config.default.js
+                                     ▇ [1ms] - #13 Require(9) node_modules/egg-multipart/config/config.default.js
+                                     ▇ [1ms] - #14 Require(10) node_modules/egg-development/config/config.default.js
+                                     ▇ [0ms] - #15 Require(11) node_modules/egg-logrotator/config/config.default.js
+                                     ▇ [0ms] - #16 Require(12) node_modules/egg-static/config/config.default.js
+                                     ▇ [0ms] - #17 Require(13) node_modules/egg-view/config/config.default.js
+                                     ▇ [0ms] - #18 Require(14) node_modules/egg-tracer/config/config.default.js
+                                     ▇ [0ms] - #19 Require(15) node_modules/egg/config/config.default.js
+                                     ▇ [0ms] - #20 Require(16) config/config.default.ts
+                                     ▇ [0ms] - #21 Require(17) node_modules/egg-security/config/config.local.js
+                                     ▇ [0ms] - #22 Require(18) node_modules/egg-watcher/config/config.local.js
+                                     ▇ [0ms] - #23 Require(19) node_modules/egg-view/config/config.local.js
+                                     ▇ [0ms] - #24 Require(20) node_modules/egg/config/config.local.js
+                                     ▇ [0ms] - #25 Require(21) config/config.local.ts
+                                     ▇ [49ms] - #26 Load extend/agent.js
+                                     ▇ [1ms] - #27 Require(22) node_modules/egg-security/app/extend/agent.js
+                                     ▇ [35ms] - #28 Require(23) node_modules/egg-schedule/app/extend/agent.js
+                                      ▇ [2ms] - #29 Require(24) node_modules/egg-logrotator/app/extend/agent.js
+                                      ▇ [2ms] - #30 Require(25) node_modules/egg-tracer/app/extend/agent.js
+                                      ▇▇▇▇ [197ms] - #31 Load extend/context.js
+                                      ▇ [12ms] - #32 Require(26) node_modules/egg-security/app/extend/context.js
+                                      ▇ [2ms] - #33 Require(27) node_modules/egg-jsonp/app/extend/context.js
+                                      ▇ [0ms] - #34 Require(28) node_modules/egg-i18n/app/extend/context.js
+                                      ▇ [17ms] - #35 Require(29) node_modules/egg-multipart/app/extend/context.js
+                                       ▇ [2ms] - #36 Require(30) node_modules/egg-view/app/extend/context.js
+                                       ▇▇▇ [147ms] - #37 Require(31) node_modules/@eggjs/tegg-plugin/app/extend/context.js
+                                          ▇ [8ms] - #38 Require(32) node_modules/@eggjs/tegg-eventbus-plugin/app/extend/context.js
+                                          ▇ [1ms] - #39 Require(33) node_modules/egg-tracer/app/extend/context.js
+                                          ▇ [2ms] - #40 Require(34) node_modules/egg/app/extend/context.js
+                                          ▇ [41ms] - #41 Load agent.js
+                                          ▇ [0ms] - #42 Require(35) node_modules/egg-security/agent.js
+                                          ▇ [1ms] - #43 Require(36) node_modules/egg-onerror/agent.js
+                                          ▇ [8ms] - #44 Require(37) node_modules/egg-watcher/agent.js
+                                          ▇ [2ms] - #45 Require(38) node_modules/egg-schedule/agent.js
+                                          ▇ [12ms] - #46 Require(39) node_modules/egg-development/agent.js
+                                           ▇ [1ms] - #47 Require(40) node_modules/egg-logrotator/agent.js
+                                           ▇ [3ms] - #48 Require(41) node_modules/@eggjs/tegg-config/agent.js
+                                           ▇ [6ms] - #49 Require(42) node_modules/@eggjs/tegg-schedule-plugin/agent.js
+                                           ▇ [1ms] - #50 Require(43) node_modules/egg-tracer/agent.js
+                                           ▇ [0ms] - #51 Require(44) node_modules/egg/agent.js
+                                           ▇▇▇▇▇ [279ms] - #52 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                           ▇▇▇▇▇ [264ms] - #53 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                           ▇▇▇▇▇▇ [286ms] - #54 Before Start in node_modules/egg-development/agent.js:8:9
+2024-08-23 12:49:35,292 INFO 29158 [egg:core] dump config after ready, 3ms
+2024-08-23 13:20:31,493 ERROR 29158 nodejs.ClusterClientNoResponseError: client no response in 1813687ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29158
+hostname: stempestdeMac-mini.local
+
+2024-08-23 13:39:02,060 ERROR 29158 nodejs.ClusterClientNoResponseError: client no response in 1051001ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29158
+hostname: stempestdeMac-mini.local
+
+2024-08-23 14:01:41,057 ERROR 29158 nodejs.ClusterClientNoResponseError: client no response in 1298986ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29158
+hostname: stempestdeMac-mini.local
+
+2024-08-23 14:04:48,679 INFO 29783 [egg:logger] init all loggers with options: {"dir":"/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"RedBookServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-23 14:04:48,932 INFO 29783 [egg:core] dump config after load, 9ms
+2024-08-23 14:04:48,971 INFO 29783 [egg-watcher] Start watching: ["/Users/xiaoshiliang/Downloads/redbookserver/app","/Users/xiaoshiliang/Downloads/redbookserver/config","/Users/xiaoshiliang/Downloads/redbookserver/mocks","/Users/xiaoshiliang/Downloads/redbookserver/mocks_proxy","/Users/xiaoshiliang/Downloads/redbookserver/app.js"]
+2024-08-23 14:04:48,971 INFO 29783 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/app"
+2024-08-23 14:04:48,971 INFO 29783 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/config"
+2024-08-23 14:04:48,971 INFO 29783 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/mocks"
+2024-08-23 14:04:48,971 INFO 29783 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/mocks_proxy"
+2024-08-23 14:04:48,971 INFO 29783 [egg-watcher] Start watching: "/Users/xiaoshiliang/Downloads/redbookserver/app.js"
+2024-08-23 14:04:48,971 INFO 29783 [egg-watcher:agent] watcher start success
+2024-08-23 14:04:48,983 INFO 29783 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇ [489ms] - #0 Process Start
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1838ms] - #1 Application Start
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1164ms] - #2 Load Plugin
+                                   ▇ [49ms] - #3 Load Config
+                                   ▇ [28ms] - #4 Require(0) config/config.default.ts
+                                    ▇ [2ms] - #5 Require(1) config/config.local.ts
+                                    ▇ [0ms] - #6 Require(2) node_modules/egg-session/config/config.default.js
+                                    ▇ [0ms] - #7 Require(3) node_modules/egg-security/config/config.default.js
+                                    ▇ [1ms] - #8 Require(4) node_modules/egg-jsonp/config/config.default.js
+                                    ▇ [0ms] - #9 Require(5) node_modules/egg-onerror/config/config.default.js
+                                    ▇ [0ms] - #10 Require(6) node_modules/egg-i18n/config/config.default.js
+                                    ▇ [0ms] - #11 Require(7) node_modules/egg-watcher/config/config.default.js
+                                    ▇ [0ms] - #12 Require(8) node_modules/egg-schedule/config/config.default.js
+                                    ▇ [0ms] - #13 Require(9) node_modules/egg-multipart/config/config.default.js
+                                    ▇ [0ms] - #14 Require(10) node_modules/egg-development/config/config.default.js
+                                    ▇ [1ms] - #15 Require(11) node_modules/egg-logrotator/config/config.default.js
+                                    ▇ [0ms] - #16 Require(12) node_modules/egg-static/config/config.default.js
+                                    ▇ [0ms] - #17 Require(13) node_modules/egg-view/config/config.default.js
+                                    ▇ [1ms] - #18 Require(14) node_modules/egg-tracer/config/config.default.js
+                                    ▇ [0ms] - #19 Require(15) node_modules/egg/config/config.default.js
+                                    ▇ [0ms] - #20 Require(16) config/config.default.ts
+                                    ▇ [0ms] - #21 Require(17) node_modules/egg-security/config/config.local.js
+                                    ▇ [0ms] - #22 Require(18) node_modules/egg-watcher/config/config.local.js
+                                    ▇ [0ms] - #23 Require(19) node_modules/egg-view/config/config.local.js
+                                    ▇ [0ms] - #24 Require(20) node_modules/egg/config/config.local.js
+                                    ▇ [0ms] - #25 Require(21) config/config.local.ts
+                                    ▇ [53ms] - #26 Load extend/agent.js
+                                    ▇ [2ms] - #27 Require(22) node_modules/egg-security/app/extend/agent.js
+                                    ▇ [35ms] - #28 Require(23) node_modules/egg-schedule/app/extend/agent.js
+                                     ▇ [2ms] - #29 Require(24) node_modules/egg-logrotator/app/extend/agent.js
+                                     ▇ [2ms] - #30 Require(25) node_modules/egg-tracer/app/extend/agent.js
+                                     ▇▇▇▇ [221ms] - #31 Load extend/context.js
+                                     ▇ [16ms] - #32 Require(26) node_modules/egg-security/app/extend/context.js
+                                      ▇ [3ms] - #33 Require(27) node_modules/egg-jsonp/app/extend/context.js
+                                      ▇ [0ms] - #34 Require(28) node_modules/egg-i18n/app/extend/context.js
+                                      ▇ [18ms] - #35 Require(29) node_modules/egg-multipart/app/extend/context.js
+                                      ▇ [1ms] - #36 Require(30) node_modules/egg-view/app/extend/context.js
+                                      ▇▇▇ [164ms] - #37 Require(31) node_modules/@eggjs/tegg-plugin/app/extend/context.js
+                                          ▇ [7ms] - #38 Require(32) node_modules/@eggjs/tegg-eventbus-plugin/app/extend/context.js
+                                          ▇ [1ms] - #39 Require(33) node_modules/egg-tracer/app/extend/context.js
+                                          ▇ [1ms] - #40 Require(34) node_modules/egg/app/extend/context.js
+                                          ▇ [42ms] - #41 Load agent.js
+                                          ▇ [1ms] - #42 Require(35) node_modules/egg-security/agent.js
+                                          ▇ [1ms] - #43 Require(36) node_modules/egg-onerror/agent.js
+                                          ▇ [9ms] - #44 Require(37) node_modules/egg-watcher/agent.js
+                                          ▇ [2ms] - #45 Require(38) node_modules/egg-schedule/agent.js
+                                          ▇ [14ms] - #46 Require(39) node_modules/egg-development/agent.js
+                                           ▇ [0ms] - #47 Require(40) node_modules/egg-logrotator/agent.js
+                                           ▇ [2ms] - #48 Require(41) node_modules/@eggjs/tegg-config/agent.js
+                                           ▇ [5ms] - #49 Require(42) node_modules/@eggjs/tegg-schedule-plugin/agent.js
+                                           ▇ [1ms] - #50 Require(43) node_modules/egg-tracer/agent.js
+                                           ▇ [1ms] - #51 Require(44) node_modules/egg/agent.js
+                                            ▇▇▇▇▇ [267ms] - #52 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                            ▇▇▇▇▇ [250ms] - #53 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                            ▇▇▇▇▇ [275ms] - #54 Before Start in node_modules/egg-development/agent.js:8:9
+2024-08-23 14:04:48,983 INFO 29783 [egg:core] dump config after ready, 3ms
+2024-08-23 18:05:23,390 ERROR 29783 nodejs.ClusterClientNoResponseError: client no response in 1810040ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29783
+hostname: stempestdeMac-mini.local
+
+2024-08-23 18:21:24,926 ERROR 29783 nodejs.ClusterClientNoResponseError: client no response in 901823ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29783
+hostname: stempestdeMac-mini.local
+
+2024-08-23 19:05:13,864 ERROR 29783 nodejs.ClusterClientNoResponseError: client no response in 2568993ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29783
+hostname: stempestdeMac-mini.local
+
+2024-08-23 21:06:15,785 ERROR 29783 nodejs.ClusterClientNoResponseError: client no response in 7201945ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29783
+hostname: stempestdeMac-mini.local
+
+2024-08-23 21:36:14,561 ERROR 29783 nodejs.ClusterClientNoResponseError: client no response in 1738954ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29783
+hostname: stempestdeMac-mini.local
+
+2024-08-23 23:38:19,376 ERROR 29783 nodejs.ClusterClientNoResponseError: client no response in 7204954ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29783
+hostname: stempestdeMac-mini.local
+
+2024-08-24 01:39:19,894 ERROR 29783 nodejs.ClusterClientNoResponseError: client no response in 7200979ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/xiaoshiliang/Downloads/redbookserver/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 29783
+hostname: stempestdeMac-mini.local
+

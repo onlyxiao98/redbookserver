@@ -1,0 +1,40 @@
+2024-08-30 00:57:44,658 INFO 29785 [egg-logrotator] app logger reload: got log-reload message
+2024-08-30 02:59:50,310 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 02:59:50,310 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 05:00:53,007 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 05:00:53,007 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 05:00:53,013 INFO 29785 [-/127.0.0.1/1fce175d-06d5-479a-8681-a97f7244bf08/4ms SCHEDULE /__schedule?path=/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/79/bsxddmg571zcwfz2p9g2gzhm0000gq/T/egg-multipart-tmp/RedBookServer"
+2024-08-30 05:00:53,018 INFO 29785 [-/127.0.0.1/1fce175d-06d5-479a-8681-a97f7244bf08/9ms SCHEDULE /__schedule?path=/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2024-08-30 07:01:54,700 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 07:01:54,700 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 09:00:35,321 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 09:00:35,321 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 13:20:32,532 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 13:20:32,534 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 13:39:04,117 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 13:39:04,118 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 13:57:25,108 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 13:57:25,113 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 14:01:45,993 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 14:01:45,995 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 18:03:12,338 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 18:03:12,344 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 18:33:27,986 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 18:33:27,989 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 18:50:42,896 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 18:50:42,896 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 19:07:26,878 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 19:07:26,878 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 19:34:48,848 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 19:34:48,848 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 20:05:15,808 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 20:05:15,808 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 21:35:52,724 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 21:35:52,724 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-30 23:36:51,434 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-30 23:36:51,434 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-31 01:37:53,173 WARN 29785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-31 01:37:53,186 WARN 29785 [ClusterClient:Watcher] follower closed, and try to init it again
+2024-08-31 01:37:53,298 INFO 29785 [-/127.0.0.1/a9875897-13a7-41e3-a8a8-b220d74ab189/70ms SCHEDULE /__schedule?path=/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-logrotator/app/schedule/clean_log.js&type=worker&cron=0%200%20*%20*%20*] [egg-logrotator] clean all log before 31 days
+2024-08-31 01:37:53,317 INFO 29785 [-/127.0.0.1/f972b0a6-c610-43bb-8b0f-15f80fa88b78/55ms SCHEDULE /__schedule?path=/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-logrotator/app/schedule/rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [egg-logrotator] broadcast log-reload
+2024-08-31 01:37:53,320 INFO 29785 [-/127.0.0.1/f972b0a6-c610-43bb-8b0f-15f80fa88b78/59ms SCHEDULE /__schedule?path=/Users/xiaoshiliang/Downloads/redbookserver/node_modules/egg-logrotator/app/schedule/rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [egg-logrotator] rotate files success by DayRotator, files ["/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/common-error.log -> /Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/common-error.log.2024-08-30","/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/RedBookServer-web.log -> /Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/RedBookServer-web.log.2024-08-30","/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/egg-web.log -> /Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/egg-web.log.2024-08-30","/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/egg-schedule.log -> /Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/egg-schedule.log.2024-08-30","/Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/egg-agent.log -> /Users/xiaoshiliang/Downloads/redbookserver/logs/RedBookServer/egg-agent.log.2024-08-30"]
